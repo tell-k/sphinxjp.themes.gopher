@@ -27,7 +27,7 @@ Presentations can be exported to PDF via a print stylesheet. This feature requir
 
 Caution
 ========
-* It does not support the hosting of the `talks.golang.org`_.
+* It does not support the hosting of the http://talks.golang.org.
 * It cannot enable to playground.
 
 Set up
@@ -64,7 +64,7 @@ License
 * sphinxjp.themes.gopher Licensed under the `MIT license <http://www.opensource.org/licenses/mit-license.php>`_ .
 * `orginal static files(styles.css, slides.js) are licensed under the BSD lincense <https://github.com/golang/tools/blob/master/LICENSE>`_
 
-See the LICENSE file for specific terms.
+See the src/LICENSE.txt file for specific terms.
 
 .. |travis| image:: https://travis-ci.org/tell-k/sphinxjp.themes.gopher.svg?branch=master
     :target: https://travis-ci.org/tell-k/sphinxjp.themes.gopher
@@ -85,3 +85,4 @@ See the LICENSE file for specific terms.
 .. |license| image:: https://pypip.in/license/sphinxjp.themes.gopher/badge.png
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
     :alt: license
+
