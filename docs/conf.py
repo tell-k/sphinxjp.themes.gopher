@@ -16,5 +16,5 @@ extensions = ['sphinxjp.themes.gopher', 'sphinx.ext.todo']
 html_theme = 'gopher'
 html_use_index = False
 
-html_static_path = ['_static']
+# html_static_path = ['_static']
 todo_include_todos = True
