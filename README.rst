@@ -77,9 +77,9 @@ See the src/LICENSE.txt file for specific terms.
     :target: https://coveralls.io/r/tell-k/sphinxjp.themes.gopher/
     :alt: coveralls.io
 
-.. |requires| image:: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements.svg?tag=v0.1.1
-     :target: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements/?tag=v0.1.1
-     :alt: requires.io
+.. |requires| image:: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements.svg?branch=master
+    :target: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements/?branch=master
+    :alt: requires.io
 
 .. |downloads| image:: https://img.shields.io/pypi/dm/sphinxjp.themes.gopher.svg
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
