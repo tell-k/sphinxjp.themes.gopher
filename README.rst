@@ -4,7 +4,7 @@ sphinxjp.themes.gopher 0.1.0
 
 Go talks style presentation theme for Sphinx.
 
-|travis| |coveralls| |downloads| |version| |license|
+|travis| |coveralls| |downloads| |version| |license| |requires|
 
 
 Output Sample
@@ -73,19 +73,22 @@ See the src/LICENSE.txt file for specific terms.
 .. |travis| image:: https://travis-ci.org/tell-k/sphinxjp.themes.gopher.svg?branch=master
     :target: https://travis-ci.org/tell-k/sphinxjp.themes.gopher
 
-
 .. |coveralls| image:: https://coveralls.io/repos/tell-k/sphinxjp.themes.gopher/badge.png
     :target: https://coveralls.io/r/tell-k/sphinxjp.themes.gopher/
     :alt: coveralls.io
 
-.. |downloads| image:: https://pypip.in/d/sphinxjp.themes.gopher/badge.png
+.. |requires| image:: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements.svg?tag=v0.1.1
+     :target: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements/?tag=v0.1.1
+     :alt: requires.io
+
+.. |downloads| image:: https://img.shields.io/pypi/dm/sphinxjp.themes.gopher.svg
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
     :alt: downloads
 
-.. |version| image:: https://pypip.in/v/sphinxjp.themes.gopher/badge.png
+.. |version| image:: https://img.shields.io/pypi/v/sphinxjp.themes.gopher.svg
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
     :alt: latest version
 
-.. |license| image:: https://pypip.in/license/sphinxjp.themes.gopher/badge.png
+.. |license| image:: https://img.shields.io/pypi/l/sphinxjp.themes.gopher.svg
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
     :alt: license
