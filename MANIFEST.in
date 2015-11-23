@@ -1,5 +1,4 @@
 include MANIFEST.in
 include tox.ini
-include README.rst
 recursive-include docs *
 recursive-include src *.py *.txt *.html *.css* *.conf *.png *.js *.eot *.svg *.ttf *.woff *.otf
