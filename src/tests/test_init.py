@@ -7,6 +7,7 @@
     :copyright: tell-k. All Rights Reserved.
 """
 
+
 class TestGetPath(object):
 
     def _get_target(self):
