@@ -1,6 +1,10 @@
 History
 =======
 
+0.1.1 (Mar 6, 2018)
+---------------------
+* `Fix Title Slide missing. <https://github.com/tell-k/sphinxjp.themes.gopher/pull/2>`_
+
 0.1.0 (Nov 23, 2015)
 ---------------------
 * First release

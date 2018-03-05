@@ -1,10 +1,10 @@
 ============================================
-sphinxjp.themes.gopher 0.1.0
+sphinxjp.themes.gopher 0.1.1
 ============================================
 
 Go talks style presentation theme for Sphinx.
 
-|travis| |coveralls| |downloads| |version| |license| |requires|
+|travis| |coveralls| |version| |license| |requires|
 
 
 Output Sample
@@ -80,10 +80,6 @@ See the src/LICENSE.txt file for specific terms.
 .. |requires| image:: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements.svg?branch=master
     :target: https://requires.io/github/tell-k/sphinxjp.themes.gopher/requirements/?branch=master
     :alt: requires.io
-
-.. |downloads| image:: https://img.shields.io/pypi/dm/sphinxjp.themes.gopher.svg
-    :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
-    :alt: downloads
 
 .. |version| image:: https://img.shields.io/pypi/v/sphinxjp.themes.gopher.svg
     :target: http://pypi.python.org/pypi/sphinxjp.themes.gopher/
