@@ -1,6 +1,12 @@
 History
 =======
 
+0.1.1 (Mar 6, 2018)
+---------------------
+*  Add Python 3.6 support.
+*  Drop Python 3.3 support.
+* `Fix Title Slide missing. <https://github.com/tell-k/sphinxjp.themes.gopher/pull/2>`_
+
 0.1.0 (Nov 23, 2015)
 ---------------------
 * First release
