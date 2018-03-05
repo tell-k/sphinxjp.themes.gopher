@@ -77,7 +77,7 @@ setup(
     classifiers=classifiers,
     keywords=['sphinx', 'reStructuredText', 'theme', 'presentation'],
     author='tell-k',
-    author_email='ffk2005 at gmail dot com',
+    author_email='ffk2005@gmail.com',
     url='https://github.com/tell-k/sphinxjp.themes.gopher',
     license='MIT',
     namespace_packages=['sphinxjp', 'sphinxjp.themes'],
