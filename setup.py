@@ -43,7 +43,7 @@ tests_require = [
 ]
 
 long_description = '\n'.join([
-    open(os.path.join("src", "README.txt")).read(),
+    open(os.path.join("README.rst")).read(),
     open(os.path.join("src", "AUTHORS.txt")).read(),
     open(os.path.join("src", "HISTORY.txt")).read(),
 ])

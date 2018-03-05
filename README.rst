@@ -1,7 +1,3 @@
-============================================
-sphinxjp.themes.gopher 0.1.1
-============================================
-
 Go talks style presentation theme for Sphinx.
 
 |travis| |coveralls| |version| |license| |requires|
