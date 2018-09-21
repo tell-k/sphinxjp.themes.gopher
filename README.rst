@@ -6,7 +6,7 @@ Go talks style presentation theme for Sphinx.
 Output Sample
 =============
 :output: https://sphinxjpthemesgopher.readthedocs.io
-:source: https://sphinxjpthemesgopher.readthedocs.io/_sources/index.txt
+:source: https://sphinxjpthemesgopher.readthedocs.io/_sources/index.rst.txt
 
 
 Features
