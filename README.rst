@@ -64,6 +64,9 @@ You can add OGP settings in conf.py.
 .. code-block:: python
 
   html_theme_options  = {
+      # for canonical
+      'canonical':'https://sphinxjpthemesgopher.readthedocs.io',
+
       # for title and "og:title" and "twitter:title"
       'ogp_title':'Sphinxjp.themes.gopher',
 

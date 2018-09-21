@@ -1,6 +1,10 @@
 History
 =======
 
+0.2.1 (Sep 22, 2018)
+---------------------
+*  Add support for embedding canonical tags
+
 0.2.0 (Sep 22, 2018)
 ---------------------
 *  Catch up with latest golang/tools static files.

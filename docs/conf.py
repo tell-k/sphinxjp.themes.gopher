@@ -15,6 +15,8 @@ version = '0.1.1'
 extensions = ['sphinxjp.themes.gopher', 'sphinx.ext.todo']
 html_theme = 'gopher'
 html_theme_options  = {
+   'canonical': 'https://sphinxjpthemesgopher.readthedocs.io',
+
    'ogp_title':'sphinxjp.themes.gopher',
    'ogp_image':'https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/ogp.png',
    'ogp_description':'A sphinx theme for generate gotalk style presentation. #sphinxjp',

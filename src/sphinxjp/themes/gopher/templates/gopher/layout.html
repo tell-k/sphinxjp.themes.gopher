@@ -30,6 +30,9 @@ Master layout template for Sphinx themes.
     <title>{{ ogp_title() }}</title>
     {%- endblock %}
     <meta name="description" content="{{ ogp_description() }}" >
+    {%- if theme_canonical %}
+    <link rel="canonical" href="{{- theme_canonical -}}" >
+    {%- endif %}
     <script>
       var notesEnabled = {%- if theme_note_enabled|tobool -%}true{%- else -%}false{%- endif -%};
       var sections = [];
