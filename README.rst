@@ -32,21 +32,21 @@ Presenter Notes
 
 1. Embed notes
 
-  .. code-block:: rst
-  
-   .. rst-class:: presenter-notes
-  
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ .. code-block:: rst
+ 
+  .. rst-class:: presenter-notes
+ 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
 2. Turrn on ``note_enabled`` in conf.py
 
-  .. code-block:: python
-  
-   html_theme_options  = {
-      'note_enabled': True, # => default False.
-   }
+ .. code-block:: python
+ 
+  html_theme_options  = {
+     'note_enabled': True, # => default False.
+  }
 
 This will allow you to open a second window by pressing 'N' from your browser displaying your slides.
 The second window is completely synced with your main window,
