@@ -18,12 +18,41 @@ Features
 PDF Export
 ============
 
-Presentations can be exported to PDF via a print stylesheet. This feature requires that you use Google Chrome or Chromium. 
+Presentations can be exported to PDF via a print stylesheet. This feature requires that you use Google Chrome or Chromium.
 
 1. Open your presentation.
 2. Open the in-browser print dialog (CMD+P).
 3. Change the Destination setting to Save as PDF.
 4. Click Save.
+
+Presenter Notes
+==================
+
+1. Embed notes
+
+.. code-block:: rst
+
+ .. rst-class:: presenter-notes
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+2. Turrn on note_enabled in conf.py
+
+.. code-block:: python
+
+ html_theme_options  = {
+    'note_enabled': True, # => default False.
+ }
+
+This will allow you to open a second window by pressing 'N' from your browser displaying your slides.
+The second window is completely synced with your main window,
+except that presenter notes are only visible on the second window.
+
+
+.. image::
+
 
 Caution
 ========

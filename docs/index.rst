@@ -5,8 +5,20 @@ Sphinxjp.themes.gopher
 | tell-k
 | https://github.com/tell-k/sphinxjp.themes.gopher
 
+.. rst-class:: presenter-notes
+
+ page 1
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 Title Slide
 ====================================
+
+.. rst-class:: presenter-notes
+
+ page 2
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 Heading1
 ====================================
@@ -33,6 +45,12 @@ Heading5
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, ...
 
+.. rst-class:: presenter-notes
+
+ page 3
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 Text Formatting
 ====================================
 
@@ -40,11 +58,6 @@ Text Formatting
 * ``**bold**`` => **bold**
 * ```python<www.python.org>`_`` => `python <www.python.org>`_
 * ````verbatim```` => ``verbatim``
-
-.. rst-class:: speakernote
-
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
- sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 List and bullets
 =================================

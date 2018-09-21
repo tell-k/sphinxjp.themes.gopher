@@ -26,6 +26,8 @@ html_theme_options  = {
 
    'twitter_card_type':'summary_large_image',
    'twitter_card_creator':'@tell_k',
+
+   'note_enabled': True,
 }
 html_use_index = False
 
