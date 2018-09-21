@@ -51,7 +51,8 @@ The second window is completely synced with your main window,
 except that presenter notes are only visible on the second window.
 
 
-.. image::
+.. image:: https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/presenter-notes.png
+   :width: 70%
 
 
 Caution
