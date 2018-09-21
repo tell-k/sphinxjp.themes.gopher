@@ -14,6 +14,8 @@ Features
 * Provide `Go talks <http://talks.golang.org/>`_ style theme for render presetation.
 * You don't need to learn a special directive and role. All you have to know generally ReStructuredText.
 * Support PDF export.
+* Support Presenter notes.
+* Support OGP tags.
 
 PDF Export
 ============
@@ -34,11 +36,11 @@ Presenter Notes
 
  .. rst-class:: presenter-notes
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-2. Turrn on note_enabled in conf.py
+2. Turrn on ``note_enabled`` in conf.py
 
 .. code-block:: python
 
@@ -54,6 +56,44 @@ except that presenter notes are only visible on the second window.
 .. image:: https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/presenter-notes.png
    :width: 70%
 
+OGP Tags
+===========
+
+You can add OGP settings.
+
+.. code-block:: python
+
+  html_theme_options  = {
+      # for title and "og:title" and "twitter:title"
+      'ogp_title':'Sphinxjp.themes.gopher',
+
+      # for "og:image" and "twitter:image"
+      'ogp_image':'https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/ogp.png',
+
+      # for description and "og:description" and "twitter:description"
+      'ogp_description':'A sphinx theme for generate gotalk style presentation. #sphinxjp',
+
+      # for "og:url"
+      'og_url':'https://pythonhosted.org/sphinxjp.themes.gopher/',
+
+      # for "og:site_name"
+      'og_site_name':'pthonhosted',
+
+      # for "og:type"
+      'og_type':'article',
+
+      # for "article:author"
+      'og_author':'https://github.com/tell-k',
+
+      # for "twitter:card". default "summary"
+      'twitter_card_type':'summary_large_image',
+
+      # for "twitter:site"
+      'twitter_card_site':'@tell_k',
+
+      # for "twitter:creator"
+      'twitter_card_creator':'@tell_k',
+  }
 
 Caution
 ========

@@ -6,7 +6,7 @@ History
 *  Catch up with latest golang/tools static files.
 *  Add support for display on mobile.
 *  Add support for presenter notes.
-*  Add support for ogp embedding.
+*  Add support for OGP tag embedding.
 *  Add Python 3.7 support.
 
 0.1.1 (Mar 6, 2018)
