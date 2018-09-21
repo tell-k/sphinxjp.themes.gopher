@@ -68,16 +68,16 @@ You can add OGP settings in conf.py.
       'ogp_title':'Sphinxjp.themes.gopher',
 
       # for "og:image" and "twitter:image"
-      'ogp_image':'https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/ogp.png',
+      'ogp_image':'https://sphinxjpthemesgopher.readthedocs.io/_static/img/ogp.png',
 
       # for description and "og:description" and "twitter:description"
       'ogp_description':'A sphinx theme for generate gotalk style presentation. #sphinxjp',
 
       # for "og:url"
-      'og_url':'https://pythonhosted.org/sphinxjp.themes.gopher/',
+      'og_url':'https://sphinxjpthemesgopher.readthedocs.io',
 
       # for "og:site_name"
-      'og_site_name':'pthonhosted',
+      'og_site_name':'readthedocs',
 
       # for "og:type"
       'og_type':'article',
