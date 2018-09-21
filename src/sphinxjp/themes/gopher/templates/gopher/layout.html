@@ -10,11 +10,68 @@ Master layout template for Sphinx themes.
 <!DOCTYPE html>
 <html>
   <head>
+    {%- macro ogp_title() %}
+      {%- if theme_ogp_title %}
+        {{- theme_ogp_title -}}
+      {%- else %}
+        {{- title|striptags|e -}}{{- titlesuffix -}}
+      {%- endif %}
+    {%- endmacro %}
+
+    {%- macro ogp_description() %}
+      {%- if theme_ogp_description %}
+        {{- theme_ogp_description -}}
+      {%- else %}
+        {{- title|striptags|e -}}{{- titlesuffix -}}
+      {%- endif %}
+    {%- endmacro %}
+
     {%- block htmltitle %}
-    <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+    <title>{{ ogp_title() }}</title>
     {%- endblock %}
+    <meta name="description" content="{{ ogp_description() }}" >
+    <script>
+      var notesEnabled = {%- if theme_note_enabled|tobool -%}true{%- else -%}false{%- endif -%};
+      var sections = [];
+      var titleNotes = [];
+    </script>
     <meta charset='utf-8'>
+
+    <meta property="og:title" content="{{ ogp_title() }}">
+    <meta property="og:description" content="{{ ogp_description() }}">
+    {%- if theme_ogp_image %}
+    <meta property="og:image" content="{{- theme_ogp_image -}}">
+    {%- endif %}
+    {%- if theme_og_url %}
+    <meta property="og:url" content="{{- theme_og_url -}}">
+    {%- endif %}
+    {%- if theme_og_site_name %}
+    <meta property="og:site_name" content="{{- theme_og_site_name -}}">
+    {%- endif %}
+    {%- if theme_og_type %}
+    <meta property="og:type" content="{{- theme_og_type -}}">
+    {%- endif %}
+    {%- if theme_og_author %}
+    <meta property="article:author" content="{{- theme_og_author -}}">
+    {%- endif %}
+
+    <meta name="twitter:title" content="{{ ogp_title() }}">
+    <meta name="twitter:description" content="{{ ogp_description() }}">
+    {%- if theme_ogp_image %}
+    <meta name="twitter:image" content="{{- theme_ogp_image -}}">
+    {%- endif %}
+    {%- if theme_twitter_card_type %}
+    <meta name="twitter:card" content="{{- theme_twitter_card_type -}}">
+    {%- endif %}
+    {%- if theme_twitter_card_site %}
+    <meta name="twitter:site" content="{{ theme_twitter_card_site }}">
+    {%- endif %}
+    {%- if theme_twitter_card_creator %}
+    <meta name="twitter:creator" content="{{ theme_twitter_card_creator }}">
+    {%- endif %}
+
     <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/css/notes.css', 1) }}" type="text/css" />
     {%- for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
     {%- endfor %}
@@ -23,15 +80,18 @@ Master layout template for Sphinx themes.
       <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
       {%- endif %}
     {%- endfor %}
+    <script>
+    </script>
   </head>
   <body style='display: none'>
     {% block body %}{% endblock %}
+  </body>
   <div id="help">
       Use the left and right arrow keys or click the left and right
       edges of the page to navigate between slides.<br>
       (Press 'H' or navigate to hide this message.)
   </div>
-  </body>
-  <script type="text/javascript" src="{{ pathto("_static/js/initialize.js", 1) }}"></script>
+  <script type="text/javascript" src="{{ pathto("_static/js/init.js", 1) }}"></script>
+  <script type="text/javascript" src="{{ pathto("_static/js/notes.js", 1) }}"></script>
   <script type="text/javascript" src="{{ pathto("_static/js/slides.js", 1) }}"></script>
 </html>

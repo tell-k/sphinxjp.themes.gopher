@@ -13,3 +13,4 @@ parts
 .eggs
 .tox
 .cache
+venv
