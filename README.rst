@@ -59,7 +59,7 @@ except that presenter notes are only visible on the second window.
 OGP Tags
 ===========
 
-You can add OGP settings.
+You can add OGP settings in conf.py.
 
 .. code-block:: python
 
