@@ -16,11 +16,11 @@ extensions = ['sphinxjp.themes.gopher', 'sphinx.ext.todo']
 html_theme = 'gopher'
 html_theme_options  = {
    'ogp_title':'sphinxjp.themes.gopher',
-   'ogp_image':'https://pythonhosted.org/sphinxjp.themes.gopher/_static/img/ogp.png',
+   'ogp_image':'https://raw.githubusercontent.com/tell-k/sphinxjp.themes.gopher/master/docs/_static/img/ogp.png',
    'ogp_description':'A sphinx theme for generate gotalk style presentation. #sphinxjp',
 
-   'og_url':'https://pythonhosted.org/sphinxjp.themes.gopher/',
-   'og_site_name':'pthonhosted',
+   'og_url':'https://sphinxjpthemesgopher.readthedocs.io',
+   'og_site_name':'readthedocs',
    'og_type':'article',
    'og_author':'https://github.com/tell-k',
 

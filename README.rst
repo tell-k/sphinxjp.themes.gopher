@@ -5,8 +5,8 @@ Go talks style presentation theme for Sphinx.
 
 Output Sample
 =============
-:output: http://packages.python.org/sphinxjp.themes.gopher/
-:source: http://packages.python.org/sphinxjp.themes.gopher/_sources/index.txt
+:output: https://sphinxjpthemesgopher.readthedocs.io
+:source: https://sphinxjpthemesgopher.readthedocs.io/_sources/index.txt
 
 
 Features
