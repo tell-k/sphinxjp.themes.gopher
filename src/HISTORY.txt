@@ -1,6 +1,10 @@
 History
 =======
 
+0.2.2 (Sep 25, 2018)
+---------------------
+*  Fixed "Title slide" styles.
+
 0.2.1 (Sep 22, 2018)
 ---------------------
 *  Add support for embedding canonical tags
