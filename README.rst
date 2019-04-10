@@ -40,7 +40,7 @@ Presenter Notes
    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-２. Turrn on ``note_enabled`` in conf.py
+２. Turn on ``note_enabled`` in conf.py
 
 .. code-block:: python
 
@@ -114,7 +114,7 @@ Convert Usage
 setup conf.py with::
 
     extensions = ['sphinxjp.themes.gopher']
-    html_theme = 'gopher'
+    html_themes = ['gopher']
     html_use_index = False
 
 and run::
