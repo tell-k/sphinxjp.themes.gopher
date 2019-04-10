@@ -40,7 +40,7 @@ Presenter Notes
    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-２. Turrn on ``note_enabled`` in conf.py
+２. Turn on ``note_enabled`` in conf.py
 
 .. code-block:: python
 
