@@ -114,7 +114,7 @@ Convert Usage
 setup conf.py with::
 
     extensions = ['sphinxjp.themes.gopher']
-    html_themes = ['gopher']
+    html_theme = 'gopher'
     html_use_index = False
 
 and run::
