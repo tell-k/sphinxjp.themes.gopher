@@ -3,30 +3,30 @@ History
 
 0.2.3 (Apr 15, 2019)
 ---------------------
-*  `Catch up with latest golang/tools static files <https://github.com/tell-k/sphinxjp.themes.gopher/pull/8>`_.
-*  `Fix theme settings <https://github.com/tell-k/sphinxjp.themes.gopher/pull/7>`_.
-*  `Fix integration of pytest and setup.py <https://github.com/tell-k/sphinxjp.themes.gopher/pull/6>`_.
+* `Catch up with latest golang/tools static files <https://github.com/tell-k/sphinxjp.themes.gopher/pull/8>`_.
+* `Fix theme settings <https://github.com/tell-k/sphinxjp.themes.gopher/pull/7>`_.
+* `Fix integration of pytest and setup.py <https://github.com/tell-k/sphinxjp.themes.gopher/pull/6>`_.
 
 0.2.2 (Sep 25, 2018)
 ---------------------
-*  Fixed "Title slide" styles.
+* Fixed "Title slide" styles.
 
 0.2.1 (Sep 22, 2018)
 ---------------------
-*  Add support for embedding canonical tags
+* Add support for embedding canonical tags
 
 0.2.0 (Sep 22, 2018)
 ---------------------
-*  Catch up with latest golang/tools static files.
-*  Add support for display on mobile.
-*  Add support for presenter notes.
-*  Add support for OGP tag embedding.
-*  Add Python 3.7 support.
+* Catch up with latest golang/tools static files.
+* Add support for display on mobile.
+* Add support for presenter notes.
+* Add support for OGP tag embedding.
+* Add Python 3.7 support.
 
 0.1.1 (Mar 6, 2018)
 ---------------------
-*  Add Python 3.6 support.
-*  Drop Python 3.3 support.
+* Add Python 3.6 support.
+* Drop Python 3.3 support.
 * `Fix Title Slide missing. <https://github.com/tell-k/sphinxjp.themes.gopher/pull/2>`_
 
 0.1.0 (Nov 23, 2015)
