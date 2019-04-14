@@ -32,5 +32,15 @@ class TestSetup(object):
         return self._get_target()(*args, **kwargs)
 
     def test_it(self):
-        dummy_app = "dummy_app"
+
+        class DummyApp:
+
+            def add_html_theme(self, theme, template_path):
+                self.theme = theme
+                self.template_path = template_path
+
+        dummy_app = DummyApp()
         self._call_fut(dummy_app)
+
+        assert dummy_app.theme == "gopher"
+        assert dummy_app.template_path != ""
