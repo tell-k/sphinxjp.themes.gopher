@@ -71,12 +71,10 @@ setup(
     install_requires=install_requires,
     setup_requires=setup_requires,
     tests_require=tests_require,
-    entry_points="""
-        [sphinx_themes]
-        path = sphinxjp.themes.gopher:get_path
-
-        [sphinx_directives]
-        setup = sphinxjp.themes.gopher:setup
-    """,
+    entry_points= {
+        'sphinx.html_themes': [
+            'gopher = sphinxjp.themes.gohper',
+        ]
+    },
     zip_safe=False
 )
