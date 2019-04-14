@@ -472,7 +472,7 @@ function addEventListeners() {
   // Force reset transform property of section.slides when printing page.
   // Use both onbeforeprint and matchMedia for compatibility with different browsers.
   var beforePrint = function() {
-    var el = document.querySelector('section.slides');
+    var el = document.querySelector('body > div.section');
     el.style.transform = '';
   };
   window.onbeforeprint = beforePrint;
