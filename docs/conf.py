@@ -8,7 +8,7 @@ master_doc = 'index'
 project = u'sphinx theme for Go talk style presentation.'
 copyright = u'2018, tell-k'
 
-version = '0.2.2'
+version = '0.2.3'
 
 # -- Options for HTML output --------------------------------------
 

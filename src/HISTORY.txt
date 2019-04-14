@@ -1,6 +1,12 @@
 History
 =======
 
+0.2.3 (Apr 15, 2019)
+---------------------
+*  `Catch up with latest golang/tools static files <https://github.com/tell-k/sphinxjp.themes.gopher/pull/8>`_.
+*  `Fix theme settings <https://github.com/tell-k/sphinxjp.themes.gopher/pull/7>`_.
+*  `Fix integration of pytest and setup.py <https://github.com/tell-k/sphinxjp.themes.gopher/pull/6>`_.
+
 0.2.2 (Sep 25, 2018)
 ---------------------
 *  Fixed "Title slide" styles.
