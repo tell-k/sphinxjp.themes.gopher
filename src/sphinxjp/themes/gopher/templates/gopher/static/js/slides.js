@@ -457,8 +457,6 @@ function scaleSmallViewports() {
   el.style.transform = transform;
 }
 
-
-
 function addEventListeners() {
   document.addEventListener('keydown', handleBodyKeyDown, false);
   var resizeTimeout;
@@ -471,18 +469,19 @@ function addEventListeners() {
     }, 50);
   });
 
-  // Force reset el.style.transform when print page
+  // Force reset transform property of section.slides when printing page.
+  // Use both onbeforeprint and matchMedia for compatibility with different browsers.
   var beforePrint = function() {
     var el = document.querySelector('body > div.section');
     el.style.transform = '';
   };
+  window.onbeforeprint = beforePrint;
   if (window.matchMedia) {
     var mediaQueryList = window.matchMedia('print');
     mediaQueryList.addListener(function(mql) {
       if (mql.matches) beforePrint();
     });
   }
-  window.onbeforeprint = beforePrint;
 }
 
 /* Initialization */
@@ -518,31 +517,29 @@ function addGeneralStyle() {
 };
 
 function handleDomLoaded() {
-    initDoms();
+  initDoms();
+  slideEls = document.querySelectorAll('body > div.section > div.section');
 
-    slideEls = document.querySelectorAll('body > div.section > div.section');
+  setupFrames();
 
-    setupFrames();
+  addFontStyle();
+  addGeneralStyle();
+  addEventListeners();
 
-    addFontStyle();
-    addGeneralStyle();
-    addEventListeners();
+  updateSlides();
 
-    updateSlides();
+  setupInteraction();
 
-    setupInteraction();
+  if (window.location.hostname == 'localhost' || window.location.hostname == '127.0.0.1' || window.location.hostname == '::1') {
+    hideHelpText();
+  }
 
-    if (window.location.hostname == 'localhost' || window.location.hostname == '127.0.0.1' || window.location.hostname == '::1') {
-      hideHelpText();
-    }
+  document.body.classList.add('loaded');
 
-    document.body.classList.add('loaded');
-
-    setupNotesSync();
+  setupNotesSync();
 };
 
 function initialize() {
-  
   getCurSlideFromHash();
 
   if (window['_DEBUG']) {
